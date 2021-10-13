@@ -88,7 +88,7 @@ namespace QuickSave
             yield return BatchUpgrade.UpgradeBatches(changeSet, saveGame);
             global::Utils.SetContinueMode(true);
             global::Utils.SetLegacyGameMode(gameMode);
-            SaveLoadManager.main.SetCurrentSlot(Path.GetFileName(saveGame),SaveLoadManager.StoryVersion.Original);
+            SaveLoadManager.main.SetCurrentSlot(Path.GetFileName(saveGame),SaveLoadManager.StoryVersion.Reboot);
             VRLoadingOverlay.Show();
             CoroutineTask<SaveLoadManager.LoadResult> task = SaveLoadManager.main.LoadAsync();
             yield return task;

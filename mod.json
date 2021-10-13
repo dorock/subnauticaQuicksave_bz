@@ -2,11 +2,14 @@
   "Id": "QuickSave",
   "DisplayName": "QuickSave",
   "Author": "Oldark - Updated by Delrathi",
-  "Version": "1.2.0",
+  "Version": "1.0.0",
   "Enable": true,
-  "AssemblyName": "QuickSave.dll",
+  "AssemblyName": "QuickSave_BZ.dll",
   "EntryMethod": "QuickSave.MainPatcher.Patch",
   "Game": "BelowZero",
+  "NexusId": {
+    "BelowZero": "244"
+  },
   "VersionDependencies": {
     "SMLHelper": "2.9.6"
   }
